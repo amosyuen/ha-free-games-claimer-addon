@@ -1,0 +1,9 @@
+{
+  "build_from": {
+    "amd64": "docker pull ghcr.io/vogler/free-games-claimer:latest@sha256:f911551da63e670c128fa57dfe11ac670dd1bd1380435038e654aef41d55808c",
+    "arm64": "docker pull ghcr.io/vogler/free-games-claimer:latest@sha256:1819ac73faba0907f19561ff81d252ae20b132129352bd1089c9489dbaae507b"
+  },
+  "codenotary": {
+    "signer": "amosyuen.github@gmail.com"
+  }
+}

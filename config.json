@@ -1,0 +1,22 @@
+{
+  "arch": ["amd64"],
+  "codenotary": "amosyuen.github@gmail.com",
+  "description": "Automatically login and redeem promotional free games",
+  "environment": {
+    "COMMAND": "node epic-games; node prime-gaming; node gog"
+  },
+  "image": "ghcr.io/amosyuen/epicgamesfree-{arch}",
+  "init": false,
+  "map": ["config:rw"],
+  "name": "Free Games Claimer",
+  "ports": {
+    "6080/tcp": 6080
+  },
+  "ports_description": {
+    "6080/tcp": "web interface"
+  },
+  "slug": "free-games-claimer",
+  "url": "https://github.com/amosyuen/ha-free-gmaes-claimer-addon",
+  "version": "f911551da63e670c128fa57dfe11ac670dd1bd1380435038e654aef41d55808c-2023-03-05",
+  "webui": "[PROTO:ssl]://[HOST]:[PORT:6080]"
+}
